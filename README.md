@@ -53,8 +53,10 @@ line chart.png
 The project includes multiple visual charts created in Excel:
 
 ### ✔ Line Charts  
-
+line chart.png
 ### ✔ Bar / Column Charts  
+bar chart.png
+column chart.png
 ### ✔ Scatter Plots  
 ### ✔ Sunburst Chart  
 ### ✔ Histogram  
