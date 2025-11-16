@@ -53,6 +53,7 @@ The dataset includes the following columns:
 The project includes multiple visual charts created in Excel:
 
 ### ✔ Line Charts  
+/Car-Sales-Analysis/linechart.png
 ### ✔ Bar / Column Charts  
 ### ✔ Scatter Plots  
 ### ✔ Sunburst Chart  
