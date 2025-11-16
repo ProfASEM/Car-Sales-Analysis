@@ -53,7 +53,7 @@ line chart.png
 The project includes multiple visual charts created in Excel:
 
 ### ✔ Line Charts  
-Car-Sales-Analysis/line-chart.png
+line-chart.png
 ### ✔ Bar / Column Charts  
 Car-Sales-Analysis/Bar-Chart.png
 Car-Sales-Analysis/Column-Chart.png
