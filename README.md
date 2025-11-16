@@ -53,14 +53,16 @@ line chart.png
 The project includes multiple visual charts created in Excel:
 
 ### ✔ Line Charts  
-line chart.png
+Car-Sales-Analysis/line chart.png
 ### ✔ Bar / Column Charts  
-bar chart.png
-column chart.png
+Car-Sales-Analysis/Bar Chart.png
+Car-Sales-Analysis/Column Chart.png
 ### ✔ Scatter Plots  
+Car-Sales-Analysis/Scatter Plot.png
 ### ✔ Sunburst Chart  
+Car-Sales-Analysis/Sunburst Chart.png
 ### ✔ Histogram  
-
+Car-Sales-Analysis/Histogram.png
 
 ---
 
