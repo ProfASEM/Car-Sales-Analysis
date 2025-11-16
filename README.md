@@ -51,9 +51,9 @@ line chart.png
 
 ## 📈 Analysis & Visualizations
 The project includes multiple visual charts created in Excel:
-
+<img src="line chart.png" width="600">
 ### ✔ Line Charts  
-line-chart.png
+
 ### ✔ Bar / Column Charts  
 Car-Sales-Analysis/Bar-Chart.png
 Car-Sales-Analysis/Column-Chart.png
