@@ -28,7 +28,7 @@ Car-Sales-Analysis/
 
 ## 📑 Dataset Description
 The dataset includes the following columns:
-
+line chart.png
 - **Manufacturer** — Car brand  
 - **Model** — Model name  
 - **Unit Sales** — Number of cars sold  
@@ -53,7 +53,7 @@ The dataset includes the following columns:
 The project includes multiple visual charts created in Excel:
 
 ### ✔ Line Charts  
-/Car-Sales-Analysis/linechart.png
+
 ### ✔ Bar / Column Charts  
 ### ✔ Scatter Plots  
 ### ✔ Sunburst Chart  
