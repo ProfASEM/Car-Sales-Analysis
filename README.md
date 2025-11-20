@@ -72,9 +72,9 @@ The project has been upgraded with a multi-page interactive report featuring a *
   - **Retention Analysis:** Donut chart showing the distribution of resale value retention.
   - **Global Sales by Manufacturer:** Bar chart ranking top brands.
 
-\<div align="center"\>
-\<img src="images/Dashboard Main.png" width="800"\>
-\</div\>
+<div align="center">
+\<img src="Dashboard Main.png" width="800">
+</div>
 
 <br>
 
@@ -85,11 +85,11 @@ The project has been upgraded with a multi-page interactive report featuring a *
   - **Sales Trends:** Area/Ribbon charts showing sales performance over time or across models.
   - **Engine Distribution:** Unit sales distribution by Horsepower and Engine Size.
 
-\<p align="center" float="left"\>
-\<img src="images/Dashboard USA.png" width="260" /\>
-\<img src="images/Dashboard EU.png" width="260" /\>
-\<img src="images/Dashboard Asia.png" width="260" /\>
-\</p\>
+
+<img src="Dashboard USA.png" width="260">
+<img src="Dashboard EU.png" width="260">
+<img src="Dashboard Asia.png" width="260">
+
 
 -----
 
@@ -167,9 +167,9 @@ The project has been upgraded with a multi-page interactive report featuring a *
   - **خريطة الارتباط (Correlation Heatmap):** توضح العلاقة القوية بين السعر، القوة الحصانية، وسعة المحرك.
   - **تحليل القيمة:** توزيع نسبة الاحتفاظ بالقيمة (Retention Value).
 
-\<div align="center"\>
-\<img src="images/Dashboard Main.png" width="800"\>
-\</div\>
+<div align="center">
+<img src="Dashboard Main.png" width="800">
+</div>
 
 <br>
 
@@ -179,11 +179,11 @@ The project has been upgraded with a multi-page interactive report featuring a *
   - **مخططات التشتت (Scatter Plots):** علاقة السعر بقيمة إعادة البيع (حجم الدائرة يمثل حجم المبيعات).
   - **توزيع المحركات:** تحليل المبيعات بناءً على القوة الحصانية وحجم المحرك.
 
-\<p align="center" float="left"\>
-\<img src="images/Dashboard USA.png" width="260" /\>
-\<img src="images/Dashboard EU.png" width="260" /\>
-\<img src="images/Dashboard Asia.png" width="260" /\>
-\</p\>
+
+<img src="Dashboard USA.png" width="260" >
+<img src="Dashboard EU.png" width="260" >
+<img src="Dashboard Asia.png" width="260">
+
 
 -----
 
