@@ -1,182 +1,219 @@
-# Car Sales Analysis Dashboard  
-A comprehensive data analysis project exploring car sales performance, pricing patterns, engine specifications, and resale value retention across various manufacturers and models.
+
+# Car Sales Analysis Dashboard 🚗📊
+
+A comprehensive data analysis project exploring car sales performance, pricing patterns, engine specifications, and resale value retention across various manufacturers and models. This project has been upgraded to feature **interactive Power BI dashboards** alongside the initial Excel analysis.
 
 ---
 
 ## 📊 Project Overview
-This project analyzes a dataset of car sales, combining performance, pricing, fuel efficiency, and vehicle specifications.  
-The goal is to extract insights, identify patterns, and visualize important trends using Excel charts and analytical techniques.
+This project analyzes a dataset of car sales, combining performance, pricing, fuel efficiency, and vehicle specifications.
+The goal is to extract insights, identify patterns, and visualize important trends using **Excel** for data processing and **Power BI** for advanced, interactive storytelling.
 
 ---
 
 ## 📁 Project Structure
+```text
 Car-Sales-Analysis/
 │
 ├── data/
-│ └── Car Sales Analysis.xlsx
+│   └── Car Sales Analysis.xlsx
+│
+├── dashboards/
+│   └── Car Sales Dashboard.pbix
 │
 ├── images/
-│ ├── line-chart.png
-│ ├── bar-chart.png
-│ ├── scatter-plot.png
-│ └── dashboard-overview.png
-│└── README.md
+│   ├── Dashboard Main.png
+│   ├── Dashboard EU.png
+│   ├── Dashboard Asia.png
+│   ├── Dashboard USA.png
+│   ├── line-chart.png
+│   ├── bar-chart.png
+│   └── scatter-plot.png
+│
+└── README.md
+````
 
-
-
----
+-----
 
 ## 📑 Dataset Description
-The dataset includes the following columns:
-line chart.png
-- **Manufacturer** — Car brand  
-- **Model** — Model name  
-- **Unit Sales** — Number of cars sold  
-- **Price** — Selling price  
-- **Resale Value** — Value after latest launch year  
-- **Retention %** — Percentage of resale value retained  
-- **Engine Size, Horsepower, Fuel Efficiency**  
-- **Dimensions & Weight**  
-- **Vehicle Type**
 
----
+The dataset includes the following key attributes:
+
+  - **Manufacturer** — Car brand
+  - **Model** — Model name
+  - **Unit Sales** — Number of cars sold
+  - **Price** — Selling price
+  - **Resale Value** — Value after latest launch year
+  - **Retention %** — Percentage of resale value retained
+  - **Engine Metrics** — Engine Size, Horsepower, Fuel Efficiency
+  - **Vehicle Type** — Passenger, Car, Truck, etc.
+
+-----
 
 ## 🧹 Data Preparation
-- Checked for missing values  
-- Reviewed numerical distributions  
-- Verified consistency across models  
-- Added derived metrics (e.g., Retention Value categories)
 
----
+  - Checked for missing values & data consistency.
+  - Created custom columns in Power BI (DAX) for calculated metrics.
+  - Categorized **Retention Value** into groups (Good/Poor).
+  - Modeled relationships between data tables for dynamic filtering.
+
+-----
 
 ## 📈 Analysis & Visualizations
-The project includes multiple visual charts created in Excel:
-### ✔ Line Charts  
-<img src="line chart.png" width="600">
-### ✔ Bar / Column Charts  
-<img src="Bar Chart.png" width="600">
-<img src="Column Chart.png" width="600">
-### ✔ Scatter Plots  
-<img src="Scatter Plot.png" width="600">
-### ✔ Sunburst Chart  
-<img src="Sunburst Chart.png" width="600">
-### ✔ Histogram  
-<img src="Histogram.png" width="600">
 
----
+### 🚀 1. Power BI Dashboards (New Update)
+
+The project has been upgraded with a multi-page interactive report featuring a **Dark Mode** design.
+
+#### **🔹 Main Dashboard (Global View)**
+
+  - **Key KPIs:** Total Sales ($ Billions) & Unit Sales.
+  - **Correlation Heatmap:** Analyzes relationships between Price, Engine Size, Horsepower, and Fuel Capacity.
+  - **Retention Analysis:** Donut chart showing the distribution of resale value retention.
+  - **Global Sales by Manufacturer:** Bar chart ranking top brands.
+
+\<div align="center"\>
+\<img src="images/Dashboard Main.png" width="800"\>
+\</div\>
+
+<br>
+
+#### **🔹 Regional Dashboards (Asia, EU, USA)**
+
+  - **Treemaps:** Visualizing top 10 models' unit sales per region.
+  - **Scatter Plots:** Comparing **Price vs. Year Resale Value** (Bubble size = Sales volume).
+  - **Sales Trends:** Area/Ribbon charts showing sales performance over time or across models.
+  - **Engine Distribution:** Unit sales distribution by Horsepower and Engine Size.
+
+\<p align="center" float="left"\>
+\<img src="images/Dashboard USA.png" width="260" /\>
+\<img src="images/Dashboard EU.png" width="260" /\>
+\<img src="images/Dashboard Asia.png" width="260" /\>
+\</p\>
+
+-----
+
+### 📊 2. Excel Charts (Initial Analysis)
+
+  - **Line Charts:** Tracking trends.
+  - **Scatter Plots:** Initial exploration of Price vs. Value.
+  - **Sunburst & Histograms:** Distribution analysis.
+
+-----
 
 ## 🔍 Key Insights
-- Certain manufacturers deliver higher price-to-value retention.  
-- Horsepower correlates with higher prices but not always with efficiency.  
-- Fuel-efficient vehicles tend to maintain higher resale value in certain segments.  
 
----
+  - **Price vs. Power:** Strong positive correlation (0.85) between Horsepower and Price, verified by the Heatmap.
+  - **Resale Value:** Asian manufacturers (e.g., Toyota, Honda) show strong retention rates compared to competitors in the same price range.
+  - **Regional Preferences:**
+      - **USA:** Strong preference for high-horsepower vehicles (Ford F-Series).
+      - **Europe:** Higher sales concentration in compact and mid-sized efficient luxury cars.
+
+-----
 
 ## 🛠 Tools Used
-- Microsoft Excel  
-- Pivot Tables  
-- Excel Charts  
 
----
+  - **Microsoft Power BI** (Dashboards, DAX, Data Modeling)
+  - **Microsoft Excel** (Pivot Tables, Initial Charts)
+
+-----
 
 ## 📌 Future Improvements
-- Add Power BI dashboard version  
-- Build predictive model (price or retention)  
-- Add Python notebook for deeper EDA  
 
----
+  - Build a predictive model (Machine Learning) to forecast car prices.
+  - Add Python scripts for deeper statistical analysis.
+  - Automate data refreshing using Power BI Service.
+
+<br>
+<br>
 
 # ——————————————————————————————————————————
 
-# 🇸🇦🇦🇪 تحليل مبيعات السيارات — لوحة بيانات
+<br>
 
-مشروع تحليلي شامل لبيانات مبيعات السيارات، يهدف إلى فهم سلوك الأسعار، أداء الموديلات، كفاءة المحرك، ونسبة الاحتفاظ بقيمة إعادة البيع عبر مختلف الشركات والموديلات.
+# 🇸🇦🇦🇪 تحليل مبيعات السيارات — لوحة بيانات تفاعلية
 
----
+مشروع تحليلي شامل لبيانات مبيعات السيارات، يهدف إلى فهم سلوك الأسعار، أداء الموديلات، ومواصفات المحركات، مع التركيز الآن على **لوحات المعلومات التفاعلية (Dashboards)** لتقديم رؤى أعمق.
+
+-----
 
 ## 📊 نظرة عامة على المشروع
-يعتمد المشروع على تحليل بيانات مبيعات السيارات مع التركيز على الأداء، التسعير، مواصفات المحرك، وكفاءة الوقود.  
-الهدف هو استخراج الأنماط والاتجاهات وتقديمها في هيئة رسوم بيانية ولوحة معلومات واضحة.
 
----
+يعتمد المشروع على تحليل بيانات السيارات لاستخراج الأنماط والاتجاهات. تم تطوير العمل لينتقل من التحليل التقليدي باستخدام Excel إلى بناء **قصص بيانية تفاعلية باستخدام Power BI**.
+
+-----
 
 ## 📁 هيكل المشروع
 
-Car-Sales-Analysis/
-│
-├── data/
-│ └── Car Sales Analysis.xlsx
-│
-├── images/
-│ ├── line-chart.png
-│ ├── bar-chart.png
-│ ├── scatter-plot.png
-│ └── dashboard-overview.png
-│└── README.md
+تم إضافة مجلد خاص بملفات Power BI وصور اللوحات الجديدة كما هو موضح في القسم الإنجليزي أعلاه.
 
+-----
 
+## 📑 وصف البيانات
 
----
+تشمل البيانات: الشركة المصنعة، الموديل، المبيعات، السعر، قيمة إعادة البيع، نسبة الاحتفاظ بالقيمة، ومواصفات المحرك (الحجم، القوة، الكفاءة).
 
-## 📑 شرح قاعدة البيانات
-تشمل الأعمدة:
-
-- الشركة المصنعة  
-- الموديل  
-- عدد الوحدات المباعة  
-- السعر  
-- قيمة إعادة البيع  
-- نسبة الاحتفاظ بالقيمة  
-- حجم المحرك، القوة الحصانية، كفاءة الوقود  
-- الأبعاد والوزن  
-- نوع المركبة  
-
----
-
-## 🧹 تنظيف البيانات
-- فحص القيم المفقودة  
-- دراسة التوزيعات الرقمية  
-- التحقق من الاتساق بين الموديلات  
-- إضافة تصنيفات مشتقة مثل: Retention Value (GOOD / FAIR / POOR)
-
----
+-----
 
 ## 📈 التحليل والرسوم البيانية
-يتضمن المشروع عدة رسوم توضيحية من Excel:
 
-### ✔ المخططات الخطية
-<img src="line chart.png" width="600">
-### ✔ المخططات العمودية والأفقية
-<img src="Bar Chart.png" width="600">
-<img src="Column Chart.png" width="600">
+### 🚀 1. لوحات Power BI (تحديث جديد)
 
-### ✔ المخططات النقطية Scatter
-<img src="Scatter Plot.png" width="600">
+تم تصميم تقرير متعدد الصفحات بنظام **الوضع الداكن (Dark Mode)**:
 
-### ✔ مخطط Sunburst
-<img src="Sunburst Chart.png" width="600">
+#### **🔹 اللوحة الرئيسية (Main Dashboard)**
 
-### ✔ مخطط Histogram
-<img src="Histogram.png" width="600">
----
+  - **مؤشرات الأداء (KPIs):** إجمالي المبيعات (بالمليار دولار) وعدد الوحدات.
+  - **خريطة الارتباط (Correlation Heatmap):** توضح العلاقة القوية بين السعر، القوة الحصانية، وسعة المحرك.
+  - **تحليل القيمة:** توزيع نسبة الاحتفاظ بالقيمة (Retention Value).
+
+\<div align="center"\>
+\<img src="images/Dashboard Main.png" width="800"\>
+\</div\>
+
+<br>
+
+#### **🔹 اللوحات الإقليمية (آسيا، أوروبا، أمريكا)**
+
+  - **الخرائط الشجرية (Treemaps):** تعرض أفضل 10 موديلات مبيعاً في كل منطقة.
+  - **مخططات التشتت (Scatter Plots):** علاقة السعر بقيمة إعادة البيع (حجم الدائرة يمثل حجم المبيعات).
+  - **توزيع المحركات:** تحليل المبيعات بناءً على القوة الحصانية وحجم المحرك.
+
+\<p align="center" float="left"\>
+\<img src="images/Dashboard USA.png" width="260" /\>
+\<img src="images/Dashboard EU.png" width="260" /\>
+\<img src="images/Dashboard Asia.png" width="260" /\>
+\</p\>
+
+-----
+
+### 📊 2. رسوم Excel (التحليل الأولي)
+
+تم استخدام المخططات الخطية، العمودية، وSunburst لاستكشاف البيانات قبل نقلها إلى Power BI.
+
+-----
 
 ## 🔍 أهم النتائج
-- بعض الشركات تمتلك قدرة عالية على الحفاظ على قيمة إعادة البيع.  
-- السعر يرتفع عادة مع القوة الحصانية ولكن ليس دائمًا مع الكفاءة.  
-- المركبات الأكثر كفاءة في استهلاك الوقود تحافظ غالبًا على قيمة أعلى.
 
----
+  - **الارتباط:** وجود علاقة قوية جداً (0.85) بين سعر السيارة وقوتها الحصانية.
+  - **القيمة:** السيارات الآسيوية (مثل تويوتا وهوندا) تحافظ على قيمة إعادة بيع أعلى مقارنة بالمنافسين.
+  - **التفضيلات الإقليمية:** السوق الأمريكي يميل للسيارات ذات القوة الحصانية العالية، بينما السوق الأوروبي يميل للكفاءة والفخامة المدمجة.
+
+-----
 
 ## 🛠 الأدوات المستخدمة
-- مايكروسوفت إكسل  
-- Pivot Tables  
-- الرسوم البيانية (Line, Bar, Scatter, Histogram)
 
----
+  - **Microsoft Power BI** (تصميم اللوحات، معادلات DAX).
+  - **Microsoft Excel** (الجداول المحورية Pivot Tables).
+
+-----
 
 ## 📌 تطويرات مستقبلية
-- إنشاء Dashboard Power BI  
-- نموذج تنبؤي للسعر أو نسبة الاحتفاظ بالقيمة  
-- إضافة تحليل متقدم باستخدام Python  
 
+  - بناء نموذج تعلم آلة (Machine Learning) لتوقع أسعار السيارات.
+  - استخدام Python لإجراء تحليلات إحصائية متقدمة.
 
+<!-- end list -->
+
+```
+```
